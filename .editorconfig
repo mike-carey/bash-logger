@@ -1,0 +1,36 @@
+###
+# Global Editor Configurations
+##
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+charset = utf-8
+
+# Follows standards for Ruby, JS
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+indent_size = 2
+
+# Python Development
+[*.py]
+indent_size = 4
+
+# Golang Development
+[*.go]
+indent_style = tab
+indent_size = 8
+
+# Java Development
+[{*.java,*.gradle,*.groovy,*.kt}]
+indent_style = space
+indent_size = 4
+
+
+# .editorconfig
